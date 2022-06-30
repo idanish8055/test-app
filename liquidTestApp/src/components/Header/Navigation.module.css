@@ -1,0 +1,36 @@
+.navListWrapper{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7a0144;
+}
+  
+.navList {
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+  
+.navLink {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+  
+.navLink:hover:not(.active) {
+    background-color: #111;
+    border-radius: 10px;
+}
+.active {
+    background-color: #111;
+    border-radius: 10px;
+}
+.rightMenu{
+    float: right;
+}
+.navLink.active:hover {
+    background-color: #7a0144;
+    border-radius: 10px;
+}

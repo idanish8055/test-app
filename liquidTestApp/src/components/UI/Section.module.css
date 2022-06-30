@@ -1,0 +1,38 @@
+.section {
+  max-width: 40rem;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.sectionMedium{
+  max-width: 60rem;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.fullWidthSection{
+  display: inline-block;
+  max-width: 120rem;
+  margin: 2rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.quesCard{
+  display: inline-block;
+  max-width: 30rem;
+  margin: 2rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}

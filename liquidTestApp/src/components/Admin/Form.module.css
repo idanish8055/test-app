@@ -1,0 +1,30 @@
+.form {
+    justify-content: space-between;
+}
+  
+.form input {
+    width: 55rem;
+    font: inherit;
+    padding: 0.25rem;
+    border: none;
+    border-bottom: 4px solid #ccc;
+    margin-right: 2rem;
+}  
+.form input:focus {
+    outline: none;
+    border-color: #7a0144;
+}
+.form textarea{
+    border-bottom: 3px solid #ccc;
+}
+.form textarea:focus{
+    border-color: #7a0144;
+}
+.h1{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+}
+form button{
+    margin: 20px;
+}
