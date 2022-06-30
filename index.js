@@ -3,7 +3,6 @@ const app = express();
   
 app.get("/apis", (req, res) => {
   console.log("Connected to React");
-  //res.redirect("/");
 });
   
 const PORT = process.env.PORT || 5500;
